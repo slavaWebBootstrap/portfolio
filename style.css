@@ -1,0 +1,308 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+.top-header{
+	height: 50px;
+}
+
+.top-header a{
+	text-decoration: none;
+}
+
+.top-header .span_change{
+	color: #9C9C9C;
+}
+
+.top-header span{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #383838;
+}
+
+.top-header ul{
+	padding-left: 13px;
+	padding-right: 13px;
+}
+
+.top-header li{
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	background: #1074EB;
+}
+
+.top-header .icon img{
+	height: 21px;
+	width: 21px;
+}
+
+.up-nav{
+	height: 30px;
+}
+
+.up-nav .logo{
+	width: 144px;
+	height: 37px;
+}
+
+.up-nav span{
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 30px;
+}
+
+.up-nav .my-form{
+	border: 1px solid #C9C9C9;
+	border-radius: 3px;
+	padding: 4px;
+	height: 41px;
+}
+
+.up-nav input{
+	border: none;
+	outline: none;
+}
+
+.up-nav .search::placeholder{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #9C9C9C;
+}
+
+.up-nav .submit{
+	padding: 3px 7px;
+	background: #1074EB;
+	color: white;
+	border: none;
+	border-radius: 3px;
+}
+
+.up-nav .social__img{
+	height: 23px;
+	width: 23px;
+}
+
+.up-nav .adress{
+	margin-right: 30px;
+	font-size: 13px;
+	background: #FF9900;
+	border: none;
+	width: 170px;
+	height: 38px;
+	font-weight: 600;
+}
+
+.up-nav .login{
+	height: 35px;
+	width: 35px;
+}
+
+.banner{
+	height: 500px;
+	margin-top: 20px;
+}
+
+.banner .slide-1{
+	background: #EEF1F8;
+	background-image: url(source/img/banner-bag-1.png);
+	border-radius: 3px;
+	height: 500px;
+}
+
+.banner .slide-1 .left{
+	padding-left: 80px;
+	padding-top: 90px;
+}
+
+.banner .slide-1 .left h3{
+	font-weight: 900;
+	font-size: 64px;
+	line-height: 77px;
+}
+
+.banner .slide-1 .left p{
+	width: 350px;
+	height: 66px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #9C9C9C;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.banner .slide-1 .left button{
+	background: #1074EB;
+	border-radius: 3px;
+	border: none;
+	color: white;
+	padding: 18px 50px;
+}
+
+.banner .slide-1 img{
+	width: 500px;
+	height: 394px;
+	padding: 30px;
+}
+
+.banner .slide-1 .right .price{
+	position: relative;
+	top: 19%;
+	left: 63%;
+	width: 119px;
+	height: 39px;
+	background: #FF9900;
+	border-radius: 3px;
+	padding: 10px 14px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.banner .slide-1 .right .name{
+	position: relative;
+	bottom: 42%;
+	left: 10%;
+	background: #1074EB;
+	border-radius: 3px;
+	width: 190px;
+	height: 39px;
+	padding: 8px 10px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.banner .slide-2{
+	background: white;
+	background-image: url(source/img/banner-bag-2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 3px;
+	height: 500px;
+}
+
+.banner .slide-2 .left{
+	padding-left: 80px;
+	padding-top: 90px;
+}
+
+.banner .slide-2 .left h3{
+	font-weight: 900;
+	font-size: 64px;
+	line-height: 77px;
+}
+
+.banner .slide-2 .left p{
+	width: 390px;
+	height: 66px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #9C9C9C;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.banner .slide-2 .left button{
+	background: #1074EB;
+	border-radius: 3px;
+	border: none;
+	color: white;
+	padding: 18px 50px;
+}
+
+.banner .slide-2 img{
+	width: 450px;
+	height: 480px;
+	padding-top: 40px;
+	padding-left: 20px;
+}
+
+.banner .slide-3{
+	background-image: url(source/img/banner-bag-3.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 3px;
+	height: 500px;
+}
+
+.banner .slide-3:before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, .8);
+	z-index: 2;
+}
+
+.banner .slide-3 .wrap{
+	position: relative;
+	z-index: 3;
+}
+
+.banner .slide-3 .left{
+	padding-left: 80px;
+	padding-top: 90px;
+}
+
+.banner .slide-3 .left h3{
+	color: white;
+	font-size: 44px;
+	font-weight: 800;
+	line-height: 47px;
+	width: 400px;
+}
+
+.banner .slide-3 .left p{
+	width: 390px;
+	height: 66px;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 43px;;
+	color: #9C9C9C;
+	margin-top: 41px;
+	margin-bottom: 72px;
+}
+
+.banner .slide-3 .left button{
+	background: #1074EB;
+	border-radius: 3px;
+	border: none;
+	color: white;
+	padding: 18px 50px;
+}
+
+.banner .slide-3 img{
+	height: 500px;
+	width: 500px;
+	position: relative;
+	left: 230px;
+	bottom: -35px;
+	transform: rotate(-10deg);
+}
+
+.banner .owl-nav{
+	position: relative;
+	top: -116px;
+	left: 290px;
+	width: 95px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.banner .owl-next span, .banner .owl-prev span{
+	position: relative;
+	font-size: 20px;
+	background: #1074EB;
+	padding: 17px;
+	color: white;
+}
