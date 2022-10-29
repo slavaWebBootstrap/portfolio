@@ -52,9 +52,31 @@
    <a href="#"><img class="login" src="source/img/login.png" alt=""></a>
  </section>
 
+ <section class="my-nav container d-flex">
+  <button class="left d-flex align-items-center bg-primary text-white justify-content-between ps-3 pe-3 me-2" type="button" data-bs-toggle="modal" data-bs-target="#menu-modal">
+    <div class="wrap-line d-flex flex-column me-3">
+      <div class="line"></div>
+      <div class="line line-middle"></div>
+      <div class="line"></div>
+    </div>
+    <h5 class="mb-0">Каталог</h5>
+  </button>
+  <div class="right owl-carousel nav-carusel text-dark d-flex align-items-center pt-1">
+      <a href="#">Аккумуляторы</a>
+      <a href="#">Блоки контроля</a>
+      <a href="#">Генераторы</a>
+      <a href="#">Климатическая техника</a>
+      <a href="#">Отопление</a>
+      <a href="#">Перфораторы</a>
+      <a href="#">Провода</a>
+      <a href="#">Люстры</a>
+      <a href="#">Аккумулятор</a>
+      <a href="#">Аккумулятор 1</a>
+      <a href="#">Аккумулятор 2</a>
+      <div style="width:4px"></div>
+  </section>
 
-
- <section class="banner container">
+  <section class="banner container">
    <div class="owl-carousel text-center">
     <div class="slide-1">
       <div class="row">
@@ -100,6 +122,33 @@
 
 
 
+<div class="modal fade" id="menu-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content my-mod bg-primary text-white">
+     <div class="modal-header d-flex justify-content-start">
+      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+      </svg>
+      <h5 class="modal-title ms-2" id="exampleModalLabel">Каталог</h5>
+    </div>
+    <ul class="ps-0 mb-0">
+      <li class="d-flex justify-content-between align-items-center">Аккумуляторы <span class="ms-5">▶</span></li>
+      <li class="d-flex justify-content-between align-items-center">Блоки контроля <span class="ms-5">▶</span></li>
+      <li>Генераторы</li>
+      <li class="d-flex justify-content-between align-items-center">Климатическая техника <span class="ms-5">▶</span></li>
+      <li class="d-flex justify-content-between align-items-center">Отопление <span class="ms-5">▶</span></li>
+      <li class="d-flex justify-content-between align-items-center">Перфораторы <span class="ms-5">▶</span></li>
+      <li class="d-flex justify-content-between align-items-center">Провода <span class="ms-5">▶</span></li>
+      <li>Люстры</li>
+      <li>Аккумуляторы 1</li>
+      <li>Аккумуляторы 2</li>
+    </ul>
+  </div>
+</div>
+</div>
+
+
+
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.js"></script>
 <script type="text/javascript" src="jquery-3.6.1.min.js"></script>
@@ -108,3 +157,4 @@
 
 </body>
 </html>
+

@@ -1,6 +1,15 @@
 // carosel start
 
 $(document).ready(function(){
+
+   $(".nav-carusel").owlCarousel({
+    nav: true,
+    items: 8,
+    autoWidth: true,
+    margin: 10,
+    slideBy: 3,
+  });
+
   $(".owl-carousel").owlCarousel({
     nav: true,
     items: 1,
@@ -10,4 +19,6 @@ $(document).ready(function(){
     smartSpeed: 2000,
     autoplayHoverPause:true,
   });
+
 });
+

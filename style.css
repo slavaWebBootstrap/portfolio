@@ -306,3 +306,93 @@ body{
 	padding: 17px;
 	color: white;
 }
+
+.my-nav{
+	height: 56px;
+}
+
+.my-nav .list li{
+	display: inline-block;
+}
+
+.my-nav .line{
+	width: 19px;
+	height: 3px;
+	background: white;
+}
+
+.my-nav .line-middle{
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.my-nav .left h5{
+	font-weight: 600;
+	font-size: 16px;
+} 
+
+.my-nav .left{
+	border: none;
+}
+
+.my-nav .nav-carusel .owl-stage-outer{
+	width: 940px;
+}
+
+.my-nav .nav-carusel .owl-prev{
+	display: none;
+}
+
+.my-nav .nav-carusel .owl-next{
+	position: relative;
+	top: 0;
+	right: -15px;
+}
+
+.my-nav .nav-carusel .owl-next span{
+	font-size: 20px;
+}
+
+.my-nav .nav-carusel a{
+	text-decoration: none;
+	color: black;
+}
+
+.my-nav ul{
+	display: none;
+	position: absolute;
+	top: 180px;
+	left: 125px;
+	z-index: 10000;
+	background: #1074EB;
+}
+
+.my-nav ul a{
+	color: white;
+	text-decoration: none;
+}
+
+.my-mod{
+	top: 100px;
+	left: -310px;
+	width: 300px;
+}
+
+#menu-modal .modal-title {
+	font-size: 16px;
+	font-weight: 600;
+	border-bottom: none;
+}
+
+#menu-modal li span{
+	font-size: 10px;
+	margin-right: 5px;
+}
+
+#menu-modal li{
+	list-style: none;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 9px 7px 9px 18px;
+	border-top: 2px solid rgba(255,255,255, 0.3);
+}
