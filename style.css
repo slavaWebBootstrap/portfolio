@@ -326,7 +326,9 @@ body{
 	margin-bottom: 4px;
 }
 
-.my-nav .left h5{
+.my-nav .left h5 a{
+	text-decoration: none;
+	color: white;
 	font-weight: 600;
 	font-size: 16px;
 } 
@@ -358,12 +360,16 @@ body{
 	color: black;
 }
 
+.my-nav .nav-carusel a:hover{
+	color: #1074EB;
+}
+
 .my-nav ul{
 	display: none;
 	position: absolute;
 	top: 180px;
 	left: 125px;
-	z-index: 10000;
+	z-index: 100;
 	background: #1074EB;
 }
 
@@ -372,27 +378,389 @@ body{
 	text-decoration: none;
 }
 
-.my-mod{
-	top: 100px;
-	left: -310px;
-	width: 300px;
+
+/*popup menu*/
+#popup{
+	opacity: 0;
+	visibility: hidden;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, .8);
+	z-index: 4;
 }
 
-#menu-modal .modal-title {
-	font-size: 16px;
-	font-weight: 600;
-	border-bottom: none;
+#popup:target{
+	opacity: 1;
+	visibility: visible;
 }
 
-#menu-modal li span{
-	font-size: 10px;
-	margin-right: 5px;
+#popup .popup-content{
+	width: 290px;
+	height: 465px;
+	background: #1074EB;
+	position: relative;
+	top: 110px;
+	left: 109px;
+	border-radius: 3px 3px 0px 0px;
 }
 
-#menu-modal li{
+#popup .line{
+	width: 19px;
+	height: 3px;
+	background: white;
+}
+
+#popup .line-middle{
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+#popup .popup-content .catalog .close{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	margin-left: 110px;
+}
+
+#popup .popup-content ul >li{
 	list-style: none;
-	font-size: 16px;
+	color: white;
 	font-weight: 400;
-	padding: 9px 7px 9px 18px;
-	border-top: 2px solid rgba(255,255,255, 0.3);
+	font-size: 15px;
+	padding: 7px 0 7px 30px;
+	z-index: 5;
+}
+
+#popup .popup-content ul li:hover{
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+
+#popup .popup-content ul li:hover ul li{
+	letter-spacing: 3px;
+	font-weight: 200;
+}
+
+#popup .popup-content .icon{
+	font-size: 11px;
+	margin-right: 8px;
+}
+
+#popup .popup-content ul li ul{
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	right: -350px;
+	background: #1074EB;
+	border-radius: 3px 3px 0px 0px;
+	height: 465px;
+	width: 350px;
+}
+
+#popup .popup-content ul li ul{
+	padding: 0;
+}
+
+
+#popup .popup-content ul li ul li .acccordion{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 10px 0;
+}
+
+#popup .popup-content ul li:hover ul li .acccordion:hover{
+	font-weight: 600;
+}
+
+#popup .popup-content ul li:hover ul{
+	opacity: 1;
+	visibility: visible;
+	overflow: scroll;
+}
+
+#popup .popup-content .acccordion img{
+	width: 25px;
+	height: 25px;
+	margin-right: 40px;
+}
+
+#popup .popup-content .accordion-content{
+	display: none;
+}
+
+#popup .popup-content .sub-menu-link{
+	padding: 10px 0 10px 50px;
+}
+
+#popup .popup-content .sub-menu-link a{
+	text-decoration: none;
+	color: white;
+}
+
+#popup .popup-content .sub-menu-link a:hover{
+	letter-spacing: 2px;
+	font-size: 19px;
+}
+
+.month-product, .new-product{
+	margin-top: 100px;
+	position: relative;
+}
+
+.month-product h5, .new-product h5{
+	margin-bottom: 70px;
+}
+
+.product .item .wrapper{
+	position: relative;
+	width: 263px;
+	height: 260px;
+	background: #F7F7F7;
+	border-radius: 3px;
+	padding: 30px;
+}
+
+.product .item .wrapper .photo{
+	width: 203px;
+	height: 203px;
+}
+
+.product .item .wrapper .love{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+.product .item .statistic{
+	width: 18px;
+	height: 19px;
+}
+
+.product .item .brand{
+	font-weight: 500;
+	font-size: 18px;
+	color: #9C9C9C;
+}
+
+.product .item .price{
+	font-weight: 500;
+	font-size: 24px;
+}
+
+.product .item button{
+	background: #1074EB;
+	border-radius: 3px;
+	height: 55px;
+	width: 100%;
+	border: none;
+}
+
+.product .item button:hover{
+	background: linear-gradient(to right, blue, red);
+}
+
+.product .item button img{
+	width: 16px;
+	height: 16px;
+	margin-right: 12px;
+}
+
+.product .item button p{
+	font-weight: 600;
+	font-size: 16px;
+	color: white;
+	margin-bottom: 0;
+}
+
+.product .owl-nav{
+	position: absolute;
+	top: -95px;
+	right: 0;
+	width: 80px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.product .owl-next span, .product .owl-prev span{
+	font-size: 20px;
+	background: #1074EB;
+	padding: 8px 13px;
+	color: white;
+}
+
+.product .item .new{
+	background: #FF9900;
+	border-radius: 0px 3px 3px 0px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.product .item .new span, .product .item .sell span{
+	font-weight: 500;
+	font-size: 16px;
+	padding: 3px 14px;
+	color: white;
+}
+
+.product .item .sell{
+	background: #E92626;
+	border-radius: 0px 3px 3px 0px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.banner-2{
+	position: relative;
+	background: #1074EB;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.banner-2 .content {
+	position: absolute;
+	z-index: 2;
+	top: 20px;
+	left: 60px;
+	width: 1000px;
+}
+
+.banner-2 .content .wrap{
+	padding: 0 60px;
+}
+
+.banner-2 .content p{
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.banner-2 .content .banner-2-line{
+	width: 100px;
+	height: 1px;
+	background: white;
+	margin: 25px 0;
+}
+
+.banner-2 .content button{
+	background: white;
+	color: #1074EB;
+	border: none;
+	width: 270px;
+	height: 40px;
+	transition: .2s;
+}
+
+.banner-2 .content button:hover{
+	letter-spacing: 2px;
+}
+
+.black-friday h5{
+	margin-bottom: 70px;
+}
+
+.well{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.well h4{
+	margin-bottom: 70px;
+}
+
+.well .item{
+	background: #F7F7F7;
+	border-radius: 3px;
+	display: flex;
+	flex-direction: column;
+}
+
+.well .item img{
+	width: 80px;
+	height: 80px;
+	margin: 30px 90px 0 90px;
+}
+
+.well .item .title{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.well .item .content{
+	text-align: center;
+	margin: 0 18px 30px 18px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	color: #9C9C9C;
+}
+
+footer{
+	background: #383838;
+}
+
+.footer .row{
+	padding-top: 50px;
+}
+
+.footer a{
+	text-decoration: none;
+	color: #9C9C9C;
+}
+
+.footer ul li{
+	list-style: none;
+}
+
+.footer .left ul li{
+	margin: 30px 0;
+}
+
+.footer .left .address{
+	color: #9C9C9C;
+	padding: 0 44px 0 0 ;
+}
+
+.footer .left img{
+	width: 111px;
+	height: 38px;
+}
+
+.footer .left .phone, .email, .worktime{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: white;
+}
+
+.footer .middle-left ul{
+	margin-top: 30px;
+	color: white;
+}
+
+.footer .middle-left li{
+	color: #9C9C9C;
+	margin: 13px 0;
+}
+
+.footer .middle-right ul{
+	padding: 0;
+	color: white;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+
+.footer .middle-right ul li{
+	margin: 18px 0;
 }

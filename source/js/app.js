@@ -2,6 +2,25 @@
 
 $(document).ready(function(){
 
+    $(".month-product-carousel").owlCarousel({
+    items: 4,
+    margin: 30,
+    nav: true,
+  });
+
+    $(".new-product-carousel").owlCarousel({
+    items: 4,
+    margin: 30,
+    nav: true,
+  });
+
+    $(".black-friday-carousel").owlCarousel({
+    items: 4,
+    margin: 30,
+    nav: true,
+  });
+
+
    $(".nav-carusel").owlCarousel({
     nav: true,
     items: 8,
@@ -20,5 +39,8 @@ $(document).ready(function(){
     autoplayHoverPause:true,
   });
 
-});
+  $('.accordion-title').click(function(){
+    $(this).next().toggle();
+  });
 
+});

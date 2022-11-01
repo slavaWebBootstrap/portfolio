@@ -53,27 +53,29 @@
  </section>
 
  <section class="my-nav container d-flex">
-  <button class="left d-flex align-items-center bg-primary text-white justify-content-between ps-3 pe-3 me-2" type="button" data-bs-toggle="modal" data-bs-target="#menu-modal">
-    <div class="wrap-line d-flex flex-column me-3">
-      <div class="line"></div>
-      <div class="line line-middle"></div>
-      <div class="line"></div>
-    </div>
-    <h5 class="mb-0">Каталог</h5>
+  <button class="left d-flex align-items-center bg-primary text-white justify-content-between ps-3 pe-3 me-2" type="button">
+    <a href="#popup">
+      <div class="wrap-line d-flex flex-column me-3">
+        <div class="line"></div>
+        <div class="line line-middle"></div>
+        <div class="line"></div>
+      </div>
+    </a>
+    <h5 class="mb-0"><a href="">Каталог</a></h5>
   </button>
   <div class="right owl-carousel nav-carusel text-dark d-flex align-items-center pt-1">
-      <a href="#">Аккумуляторы</a>
-      <a href="#">Блоки контроля</a>
-      <a href="#">Генераторы</a>
-      <a href="#">Климатическая техника</a>
-      <a href="#">Отопление</a>
-      <a href="#">Перфораторы</a>
-      <a href="#">Провода</a>
-      <a href="#">Люстры</a>
-      <a href="#">Аккумулятор</a>
-      <a href="#">Аккумулятор 1</a>
-      <a href="#">Аккумулятор 2</a>
-      <div style="width:4px"></div>
+    <a href="#">Аккумуляторы</a>
+    <a href="#">Блоки контроля</a>
+    <a href="#">Генераторы</a>
+    <a href="#">Климатическая техника</a>
+    <a href="#">Отопление</a>
+    <a href="#">Перфораторы</a>
+    <a href="#">Провода</a>
+    <a href="#">Люстры</a>
+    <a href="#">Аккумулятор</a>
+    <a href="#">Аккумулятор 1</a>
+    <a href="#">Аккумулятор 2</a>
+    <div style="width:40px"></div>
   </section>
 
   <section class="banner container">
@@ -120,33 +122,831 @@
   </div>
 </section>
 
-
-
-<div class="modal fade" id="menu-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content my-mod bg-primary text-white">
-     <div class="modal-header d-flex justify-content-start">
-      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-      </svg>
-      <h5 class="modal-title ms-2" id="exampleModalLabel">Каталог</h5>
+<section class="container month-product product">
+  <h5>Товары месяца</h5>
+  <div class="owl-carousel month-product-carousel" >
+    <div class="item">
+      <div class="wrapper">
+        <a href="#"><img src="source/icon/blue-vector.png" alt="" class="love"></a>
+        <img src="source/img/mp-1.png" alt="" class="photo">
+      </div>
+      <div class="brand mb-2">HUTER ECS-100</div>
+      <div class="desc mb-4">Станок для заточки цепей</div>
+      <div class="wrap d-flex justify-content-between mb-4 align-items-center">
+        <div class="price">2 441 ₽</div>
+        <a href="#"><img src="source/img/statistic.png" alt="" class="statistic"></a>
+      </div>
+      <button type="button" class="d-flex justify-content-center align-items-center">
+        <img src="source/icon/white-cart.png" alt="" class="cart">
+        <p>В корзину</p>
+      </button>
     </div>
-    <ul class="ps-0 mb-0">
-      <li class="d-flex justify-content-between align-items-center">Аккумуляторы <span class="ms-5">▶</span></li>
-      <li class="d-flex justify-content-between align-items-center">Блоки контроля <span class="ms-5">▶</span></li>
+    <div class="item">
+      <div class="wrapper">
+        <a href="#"><img src="source/icon/blue-vector.png" alt="" class="love"></a>
+        <img src="source/img/mp-2.png" alt="" class="photo">
+      </div>
+      <div class="brand mb-2">Ресанта СШ-550-2</div>
+      <div class="desc mb-4">Сетевой шуруповерт</div>
+      <div class="wrap d-flex justify-content-between mb-4 align-items-center">
+        <div class="price">2 362 ₽</div>
+        <a href="#"><img src="source/img/statistic.png" alt="" class="statistic"></a>
+      </div>
+      <button type="button" class="d-flex justify-content-center align-items-center">
+        <img src="source/icon/white-cart.png" alt="" class="cart">
+        <p>В корзину</p>
+      </button>
+    </div>
+    <div class="item">
+      <div class="wrapper">
+        <a href="#"><img src="source/icon/blue-vector.png" alt="" class="love"></a>
+        <img src="source/img/mp-3.png" alt="" class="photo">
+        <div class="new">
+          <span>NEW</span>
+        </div>
+      </div>
+      <div class="brand mb-2">РЕСАНТА АСН-600/1-И</div>
+      <div class="desc mb-4">Стабилизатор напряжения</div>
+      <div class="wrap d-flex justify-content-between mb-4 align-items-center">
+        <div class="price">7 185 ₽</div>
+        <a href="#"><img src="source/img/statistic.png" alt="" class="statistic"></a>
+      </div>
+      <button type="button" class="d-flex justify-content-center align-items-center">
+        <img src="source/icon/white-cart.png" alt="" class="cart">
+        <p>В корзину</p>
+      </button>
+    </div>
+    <div class="item">
+      <div class="wrapper">
+        <a href="#"><img src="source/icon/blue-vector.png" alt="" class="love"></a>
+        <img src="source/img/mp-4.png" alt="" class="photo">
+        <div class="sell">
+          <span>SELL</span>
+        </div>
+      </div>
+      <div class="brand mb-2">DIAM JRK-500/13.0L 630058</div>
+      <div class="desc mb-4">Резчик швов</div>
+      <div class="wrap d-flex justify-content-between mb-4 align-items-center">
+        <div class="price">85 200 ₽</div>
+        <a href="#"><img src="source/img/statistic.png" alt="" class="statistic"></a>
+      </div>
+      <button type="button" class="d-flex justify-content-center align-items-center">
+        <img src="source/icon/white-cart.png" alt="" class="cart">
+        <p>В корзину</p>
+      </button>
+    </div>
+    <div class="item">
+      <div class="wrapper">
+        <a href="#"><img src="source/icon/blue-vector.png" alt="" class="love"></a>
+        <img src="source/img/mp-2.png" alt="" class="photo">
+      </div>
+      <div class="brand mb-2">Ресанта СШ-550-2</div>
+      <div class="desc mb-4">Сетевой шуруповерт</div>
+      <div class="wrap d-flex justify-content-between mb-4 align-items-center">
+        <div class="price">2 362 ₽</div>
+        <a href="#"><img src="source/img/statistic.png" alt="" class="statistic"></a>
+      </div>
+      <button type="button" class="d-flex justify-content-center align-items-center">
+        <img src="source/icon/white-cart.png" alt="" class="cart">
+        <p>В корзину</p>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="container new-product product">
+  <h5>Новинки</h5>
+  <div class="owl-carousel new-product-carousel" >
+    <div class="item">
+      <div class="wrapper">
+        <a href="#"><img src="source/icon/blue-vector.png" alt="" class="love"></a>
+        <img src="source/img/mp-3.png" alt="" class="photo">
+        <div class="new">
+          <span>NEW</span>
+        </div>
+      </div>
+      <div class="brand mb-2">РЕСАНТА АСН-600/1-И</div>
+      <div class="desc mb-4">Стабилизатор напряжения</div>
+      <div class="wrap d-flex justify-content-between mb-4 align-items-center">
+        <div class="price">7 185 ₽</div>
+        <a href="#"><img src="source/img/statistic.png" alt="" class="statistic"></a>
+      </div>
+      <button type="button" class="d-flex justify-content-center align-items-center">
+        <img src="source/icon/white-cart.png" alt="" class="cart">
+        <p>В корзину</p>
+      </button>
+    </div>
+    <div class="item">
+      <div class="wrapper">
+        <a href="#"><img src="source/icon/blue-vector.png" alt="" class="love"></a>
+        <img src="source/img/new-product.png" alt="" class="photo">
+        <div class="new">
+          <span>NEW</span>
+        </div>
+      </div>
+      <div class="brand mb-2">РЕСАНТА ТЭПК-3000K</div>
+      <div class="desc mb-4">Электрическая пушка</div>
+      <div class="wrap d-flex justify-content-between mb-4 align-items-center">
+        <div class="price">3 007 ₽</div>
+        <a href="#"><img src="source/img/statistic.png" alt="" class="statistic"></a>
+      </div>
+      <button type="button" class="d-flex justify-content-center align-items-center">
+        <img src="source/icon/white-cart.png" alt="" class="cart">
+        <p>В корзину</p>
+      </button>
+    </div>
+    <div class="item">
+      <div class="wrapper">
+        <a href="#"><img src="source/icon/blue-vector.png" alt="" class="love"></a>
+        <img src="source/img/new-product-1.png" alt="" class="photo">
+        <div class="new">
+          <span>NEW</span>
+        </div>
+      </div>
+      <div class="brand mb-2">Nuova Battipav SUPREME </div>
+      <div class="desc mb-4">Станок камнерезный</div>
+      <div class="wrap d-flex justify-content-between mb-4 align-items-center">
+        <div class="price">265 590 ₽</div>
+        <a href="#"><img src="source/img/statistic.png" alt="" class="statistic"></a>
+      </div>
+      <button type="button" class="d-flex justify-content-center align-items-center">
+        <img src="source/icon/white-cart.png" alt="" class="cart">
+        <p>В корзину</p>
+      </button>
+    </div>
+    <div class="item">
+      <div class="wrapper">
+        <a href="#"><img src="source/icon/blue-vector.png" alt="" class="love"></a>
+        <img src="source/img/new-product-2.png" alt="" class="photo">
+        <div class="new">
+          <span>NEW</span>
+        </div>
+      </div>
+      <div class="brand mb-2">Ресанта ФМ-1300Э</div>
+      <div class="desc mb-4">Фрезерная машина</div>
+      <div class="wrap d-flex justify-content-between mb-4 align-items-center">
+        <div class="price">3 849 ₽</div>
+        <a href="#"><img src="source/img/statistic.png" alt="" class="statistic"></a>
+      </div>
+      <button type="button" class="d-flex justify-content-center align-items-center">
+        <img src="source/icon/white-cart.png" alt="" class="cart">
+        <p>В корзину</p>
+      </button>
+    </div>
+    <div class="item">
+      <div class="wrapper">
+        <a href="#"><img src="source/icon/blue-vector.png" alt="" class="love"></a>
+        <img src="source/img/mp-3.png" alt="" class="photo">
+        <div class="new">
+          <span>NEW</span>
+        </div>
+      </div>
+      <div class="brand mb-2">РЕСАНТА АСН-600/1-И</div>
+      <div class="desc mb-4">Стабилизатор напряжения</div>
+      <div class="wrap d-flex justify-content-between mb-4 align-items-center">
+        <div class="price">7 185 ₽</div>
+        <a href="#"><img src="source/img/statistic.png" alt="" class="statistic"></a>
+      </div>
+      <button type="button" class="d-flex justify-content-center align-items-center">
+        <img src="source/icon/white-cart.png" alt="" class="cart">
+        <p>В корзину</p>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="banner-2 container ps-0 pe-0">
+  <div class="wrapper d-flex justify-content-between">
+    <img src="source/img/banner-2-bg-l.png" alt="">
+    <img src="source/img/banner-2-bg-r.png" alt="">
+  </div>
+  <div class="content text-white d-flex justify-content-between align-items-center">
+    <img src="source/img/banner-2-left.png" alt="">
+    <div class="wrap">
+      <p>Стабилизаторы и источники бесперебойного питания энергии</p>
+      <div class="banner-2-line"></div>
+      <button type="button" class="">Перейти в каталог</button>
+    </div>
+    <img src="source/img/banner-2-right.png" alt="">
+  </div>
+</section>
+
+<section class="black-friday container product">
+  <h5>Акции недели</h5>
+  <div class="owl-carousel black-friday-carousel" >
+    <div class="item">
+      <div class="wrapper">
+        <a href="#"><img src="source/icon/blue-vector.png" alt="" class="love"></a>
+        <img src="source/img/black-friday.png" alt="" class="photo">
+        <div class="new">
+          <span>NEW</span>
+        </div>
+      </div>
+      <div class="brand mb-2">Echo HCR-165ES</div>
+      <div class="desc mb-4">Бензоножницы</div>
+      <div class="wrap d-flex justify-content-between mb-4 align-items-center">
+        <div class="price">40 700 ₽</div>
+        <a href="#"><img src="source/img/statistic.png" alt="" class="statistic"></a>
+      </div>
+      <button type="button" class="d-flex justify-content-center align-items-center">
+        <img src="source/icon/white-cart.png" alt="" class="cart">
+        <p>В корзину</p>
+      </button>
+    </div>
+    <div class="item">
+      <div class="wrapper">
+        <a href="#"><img src="source/icon/blue-vector.png" alt="" class="love"></a>
+        <img src="source/img/mp-4.png" alt="" class="photo">
+        <div class="new">
+          <span>NEW</span>
+        </div>
+      </div>
+      <div class="brand mb-2">DIAM JRK-500/13.0L 630058</div>
+      <div class="desc mb-4">Резчик швов</div>
+      <div class="wrap d-flex justify-content-between mb-4 align-items-center">
+        <div class="price">85 200 ₽</div>
+        <a href="#"><img src="source/img/statistic.png" alt="" class="statistic"></a>
+      </div>
+      <button type="button" class="d-flex justify-content-center align-items-center">
+        <img src="source/icon/white-cart.png" alt="" class="cart">
+        <p>В корзину</p>
+      </button>
+    </div>
+    <div class="item">
+      <div class="wrapper">
+        <a href="#"><img src="source/icon/blue-vector.png" alt="" class="love"></a>
+        <img src="source/img/black-friday-1.png" alt="" class="photo">
+        <div class="new">
+          <span>NEW</span>
+        </div>
+      </div>
+      <div class="brand mb-2">DIAM Master Line</div>
+      <div class="desc mb-4">Алмазный диск (круг)</div>
+      <div class="wrap d-flex justify-content-between mb-4 align-items-center">
+        <div class="price">1 280 ₽</div>
+        <a href="#"><img src="source/img/statistic.png" alt="" class="statistic"></a>
+      </div>
+      <button type="button" class="d-flex justify-content-center align-items-center">
+        <img src="source/icon/white-cart.png" alt="" class="cart">
+        <p>В корзину</p>
+      </button>
+    </div>
+    <div class="item">
+      <div class="wrapper">
+        <a href="#"><img src="source/icon/blue-vector.png" alt="" class="love"></a>
+        <img src="source/img/black-friday-2.png" alt="" class="photo">
+        <div class="new">
+          <span>NEW</span>
+        </div>
+      </div>
+      <div class="brand mb-2">Вихрь Р-82СТ 72/5/3</div>
+      <div class="desc mb-4">Электрический рубанок</div>
+      <div class="wrap d-flex justify-content-between mb-4 align-items-center">
+        <div class="price">4 007 ₽</div>
+        <a href="#"><img src="source/img/statistic.png" alt="" class="statistic"></a>
+      </div>
+      <button type="button" class="d-flex justify-content-center align-items-center">
+        <img src="source/icon/white-cart.png" alt="" class="cart">
+        <p>В корзину</p>
+      </button>
+    </div>
+    <div class="item">
+      <div class="wrapper">
+        <a href="#"><img src="source/icon/blue-vector.png" alt="" class="love"></a>
+        <img src="source/img/black-friday-1.png" alt="" class="photo">
+        <div class="new">
+          <span>NEW</span>
+        </div>
+      </div>
+      <div class="brand mb-2">DIAM Master Line</div>
+      <div class="desc mb-4">Алмазный диск (круг)</div>
+      <div class="wrap d-flex justify-content-between mb-4 align-items-center">
+        <div class="price">1 280 ₽</div>
+        <a href="#"><img src="source/img/statistic.png" alt="" class="statistic"></a>
+      </div>
+      <button type="button" class="d-flex justify-content-center align-items-center">
+        <img src="source/icon/white-cart.png" alt="" class="cart">
+        <p>В корзину</p>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="well container">
+  <h4>Наши преимущества</h4>
+  <div class="row">
+    <div class="col-xl-3 item">
+      <img src="source/icon/well.png" alt="">
+      <div class="title">Удобная доставка 24/7</div>
+      <div class="content">Мы работаем с проверенными транспортными компаниями</div>
+    </div>
+    <div class="col-xl-3 item">
+      <img src="source/icon/well-1.png" alt="">
+      <div class="title">Оплата любым способом</div>
+      <div class="content">7 способов оплаты для вашего удобства</div>
+    </div>
+    <div class="col-xl-3 item">
+      <img src="source/icon/well-2.png" alt="">
+      <div class="title">Гарантия качества</div>
+      <div class="content">Перед покупкой мы надежно проверяем товар</div>
+    </div>
+    <div class="col-xl-3 item">
+      <img src="source/icon/well-3.png" alt="">
+      <div class="title">Онлайн поддержка</div>
+      <div class="content">Менеджеры оперативно ответят на звонок или заявку</div>
+    </div>
+  </div>
+</section>
+
+<footer class="container-fluid">
+  <div class="content container footer">
+    <div class="row">
+      <div class="col-xl-3 left">
+        <ul>
+          <li>
+            <img src="source/img/logo.png" alt="">
+          </li>
+          <li class="phone">+7 (499) 719-99-94</li>
+          <li class="email">info@5kvt.ru</li>
+          <li class="worktime">Ежедневно 9:30 - 20:00 (МСК)</li>
+          <li class="address">117218, г. Москва, пр-кт Нахимовский .,дом 30/43, кв. 81</li>
+        </ul>
+      </div>
+      <div class="col-xl-3 middle-left">
+        <ul>Информация
+          <a href=""><li class="pt-3">Доставка</li></a>
+          <a href=""><li>Оплата</li></a>
+          <a href=""><li>Производители</li></a>
+          <a href=""><li>Подарочные сертификаты</li></a>
+          <a href=""><li>Партнерская программа</li></a>
+          <a href=""><li>Акции</li></a>
+          <a href=""><li>Все товары</li></a>
+        </ul>
+      </div>
+      <div class="col-xl-3 middle-right">
+        <ul>Служба поддержки
+          <li><a href="">Возврат товара</a></li>
+        </ul>
+        <ul class="pt-3">Личный кабинет
+          <li><a href="">Личный кабинет</a></li>
+          <li><a href="">История заказов</a></li>
+          <li><a href="">Избранное</a></li>
+          <li><a href="">Рассылка</a></li>
+        </ul>
+      </div>
+      <div class="col-xl-3 right"></div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<div class="popup" id="popup">
+  <div class="popup-content">
+    <div class="catalog d-flex align-items-center justify-content-start text-white pt-2 ms-4 ps-2">
+      <div class="wrap-line d-flex flex-column me-3">
+        <div class="line"></div>
+        <div class="line line-middle"></div>
+        <div class="line"></div>
+      </div>
+      <h5 class="mt-2">Каталог</h5>
+      <a href="#" class="close">X</a>
+    </div>
+    <ul class="ps-0">
+      <li class="d-flex justify-content-between align-items-center">Аккумуляторы
+        <div class="icon">▶</div>
+        <ul>
+          <li>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li class="d-flex justify-content-between align-items-center">Блоки контроля
+        <div class="icon">▶</div>
+        <ul>
+          <li>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </li>
       <li>Генераторы</li>
-      <li class="d-flex justify-content-between align-items-center">Климатическая техника <span class="ms-5">▶</span></li>
-      <li class="d-flex justify-content-between align-items-center">Отопление <span class="ms-5">▶</span></li>
-      <li class="d-flex justify-content-between align-items-center">Перфораторы <span class="ms-5">▶</span></li>
-      <li class="d-flex justify-content-between align-items-center">Провода <span class="ms-5">▶</span></li>
+      <li class="d-flex justify-content-between align-items-center">Климатическая техника
+        <div class="icon">▶</div>
+        <ul>
+          <li>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li class="d-flex justify-content-between align-items-center">Отопление
+        <div class="icon">▶</div>
+        <ul>
+          <li>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li class="d-flex justify-content-between align-items-center">Перфораторы
+        <div class="icon">▶</div>
+        <ul>
+          <li>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li class="d-flex justify-content-between align-items-center">Провода
+        <div class="icon">▶</div>
+        <ul>
+          <li>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+            <div class="acccordion">
+              <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
+              <div class="accordion-content">
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+                <div class="sub-menu-link"><a href="#">аккумулятор</a></div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </li>
       <li>Люстры</li>
-      <li>Аккумуляторы 1</li>
-      <li>Аккумуляторы 2</li>
+      <li>Аккумуляторы</li>
+      <li>Аккумуляторы</li>
     </ul>
   </div>
 </div>
-</div>
-
 
 
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
