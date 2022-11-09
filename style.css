@@ -2,6 +2,10 @@ body{
 	font-family: 'Lato', sans-serif;
 }
 
+body.lock{
+	overflow: hidden !important;
+}
+
 .top-header{
 	height: 50px;
 }
@@ -480,7 +484,16 @@ body{
 #popup .popup-content ul li:hover ul{
 	opacity: 1;
 	visibility: visible;
-	overflow: scroll;
+	overflow-y: scroll;
+}
+
+#my-scroll::-webkit-scrollbar{
+	background: #1074EB;
+}
+
+#my-scroll{
+	scrollbar-color: #1074EB;
+    scrollbar-width: auto;
 }
 
 #popup .popup-content .acccordion img{
@@ -763,4 +776,37 @@ footer{
 
 .footer .middle-right ul li{
 	margin: 18px 0;
+}
+
+.footer .right{
+	margin-top: 40px;
+}
+
+.footer .right .f-soc{
+	width: 35px;
+	height: 35px;
+}
+
+.footer .right p{
+	color: #9C9C9C;
+	margin-bottom: 0;
+}
+
+.footer .right button{
+	background: #1074EB;
+	width: 260px;
+	height: 55px;
+	border: none;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 33px;
+	margin-bottom: 30px;
+}
+
+.footer .right .wrapper img{
+	width: 60px;
+	height: 35px;
+	margin-right: 15px;
 }

@@ -14,7 +14,8 @@
     <title>Project-1</title>
   </head>
   <body>
-    <div class="container top-header d-flex justify-content-between align-items-center">
+    <section class="desctop">
+      <div class="container top-header d-flex justify-content-between align-items-center">
       <div class="wrap">
        <a href="#"><span class="me-4">Доставка и оплата</span></a>
        <a href="#"><span>Контакты</span></a>
@@ -54,7 +55,7 @@
 
  <section class="my-nav container d-flex">
   <button class="left d-flex align-items-center bg-primary text-white justify-content-between ps-3 pe-3 me-2" type="button">
-    <a href="#popup">
+    <a href="#popup" id="click-menu">
       <div class="wrap-line d-flex flex-column me-3">
         <div class="line"></div>
         <div class="line line-middle"></div>
@@ -338,8 +339,8 @@
       <div class="wrapper">
         <a href="#"><img src="source/icon/blue-vector.png" alt="" class="love"></a>
         <img src="source/img/black-friday.png" alt="" class="photo">
-        <div class="new">
-          <span>NEW</span>
+        <div class="sell">
+          <span>SELL</span>
         </div>
       </div>
       <div class="brand mb-2">Echo HCR-165ES</div>
@@ -357,8 +358,8 @@
       <div class="wrapper">
         <a href="#"><img src="source/icon/blue-vector.png" alt="" class="love"></a>
         <img src="source/img/mp-4.png" alt="" class="photo">
-        <div class="new">
-          <span>NEW</span>
+        <div class="sell">
+          <span>SELL</span>
         </div>
       </div>
       <div class="brand mb-2">DIAM JRK-500/13.0L 630058</div>
@@ -376,8 +377,8 @@
       <div class="wrapper">
         <a href="#"><img src="source/icon/blue-vector.png" alt="" class="love"></a>
         <img src="source/img/black-friday-1.png" alt="" class="photo">
-        <div class="new">
-          <span>NEW</span>
+        <div class="sell">
+          <span>SELL</span>
         </div>
       </div>
       <div class="brand mb-2">DIAM Master Line</div>
@@ -395,8 +396,8 @@
       <div class="wrapper">
         <a href="#"><img src="source/icon/blue-vector.png" alt="" class="love"></a>
         <img src="source/img/black-friday-2.png" alt="" class="photo">
-        <div class="new">
-          <span>NEW</span>
+        <div class="sell">
+          <span>SELL</span>
         </div>
       </div>
       <div class="brand mb-2">Вихрь Р-82СТ 72/5/3</div>
@@ -414,8 +415,8 @@
       <div class="wrapper">
         <a href="#"><img src="source/icon/blue-vector.png" alt="" class="love"></a>
         <img src="source/img/black-friday-1.png" alt="" class="photo">
-        <div class="new">
-          <span>NEW</span>
+        <div class="sell">
+          <span>SELL</span>
         </div>
       </div>
       <div class="brand mb-2">DIAM Master Line</div>
@@ -494,7 +495,21 @@
           <li><a href="">Рассылка</a></li>
         </ul>
       </div>
-      <div class="col-xl-3 right"></div>
+      <div class="col-xl-3 right">
+        <div class="wrap d-flex align-items-center justify-content-start">
+          <img src="source/icon/whatsapp.gif" alt="" class="f-soc me-3">
+          <img src="source/icon/viber.png" alt="" class="f-soc me-3">
+          <p>Напишите нам</p>
+        </div>
+        <button type="button"><img src="source/icon/footer-button.png" alt="" class="me-2">Служба поддержки</button>
+        <p class="f-con text-white mb-5">Принимаем к оплате</p>
+        <div class="wrapper d-flex align-items-center">
+          <img src="source/img/mastercard.png" alt="">
+          <img src="source/img/maestro.png" alt="">
+          <img src="source/img/visa.png" alt="">
+          <img src="source/img/mir.png" alt="">
+        </div>
+      </div>
     </div>
   </div>
 </footer>
@@ -511,12 +526,12 @@
         <div class="line"></div>
       </div>
       <h5 class="mt-2">Каталог</h5>
-      <a href="#" class="close">X</a>
+      <a href="#" class="close" id="close-menu">X</a>
     </div>
     <ul class="ps-0">
       <li class="d-flex justify-content-between align-items-center">Аккумуляторы
         <div class="icon">▶</div>
-        <ul>
+        <ul id="my-scroll">
           <li>
             <div class="acccordion">
               <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
@@ -587,7 +602,7 @@
       </li>
       <li class="d-flex justify-content-between align-items-center">Блоки контроля
         <div class="icon">▶</div>
-        <ul>
+        <ul id="my-scroll">
           <li>
             <div class="acccordion">
               <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
@@ -659,7 +674,7 @@
       <li>Генераторы</li>
       <li class="d-flex justify-content-between align-items-center">Климатическая техника
         <div class="icon">▶</div>
-        <ul>
+        <ul id="my-scroll">
           <li>
             <div class="acccordion">
               <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
@@ -730,7 +745,7 @@
       </li>
       <li class="d-flex justify-content-between align-items-center">Отопление
         <div class="icon">▶</div>
-        <ul>
+        <ul id="my-scroll">
           <li>
             <div class="acccordion">
               <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
@@ -801,7 +816,7 @@
       </li>
       <li class="d-flex justify-content-between align-items-center">Перфораторы
         <div class="icon">▶</div>
-        <ul>
+        <ul id="my-scroll">
           <li>
             <div class="acccordion">
               <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
@@ -872,7 +887,7 @@
       </li>
       <li class="d-flex justify-content-between align-items-center">Провода
         <div class="icon">▶</div>
-        <ul>
+        <ul id="my-scroll">
           <li>
             <div class="acccordion">
               <div class="accordion-title"><img src="source/img/submenu-ico.png">Подзаголовок</div>
@@ -947,11 +962,13 @@
     </ul>
   </div>
 </div>
+</section>
 
 
+
+<script type="text/javascript" src="jquery-3.6.1.min.js"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.js"></script>
-<script type="text/javascript" src="jquery-3.6.1.min.js"></script>
 <script type="text/javascript" src="owl.carousel.min.js"></script>
 <script type="text/javascript" src="source/js/app.js"></script>
 
